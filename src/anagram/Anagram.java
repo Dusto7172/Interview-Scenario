@@ -1,4 +1,4 @@
-package countfromgivenstring;
+package anagram;
 
 import java.util.Arrays;
 
