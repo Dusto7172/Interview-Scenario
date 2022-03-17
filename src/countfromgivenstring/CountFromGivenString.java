@@ -7,6 +7,7 @@ public static void main(String[] args) {
 	String s1= "I'm Indian Citizen.. I live in India. India has 27 states";
 	s1=s1.replace(",", "");
 	System.out.println(s1);
+	
 	String[]s2=s1.split("");
 	System.out.println(Arrays.toString(s2));
 	System.out.printf("%-10s%s \n", "String", "Count");
