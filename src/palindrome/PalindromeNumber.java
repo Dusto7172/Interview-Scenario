@@ -2,7 +2,6 @@ package palindrome;
 
 public class PalindromeNumber {
 public static void main(String[] args) {
-	
 	int a =15451;
 	int temp=a;
 	int rev=0,rem;
