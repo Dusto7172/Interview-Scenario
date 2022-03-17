@@ -9,6 +9,7 @@ public class Anagram {
 		System.out.println("Printing Obj");
 		System.out.println(s1);
 		System.out.println(s2);
+		
 		s1=s1.toLowerCase();
 		s2=s2.toLowerCase();
 		System.out.println("Printing Obj by using lowercase method");
