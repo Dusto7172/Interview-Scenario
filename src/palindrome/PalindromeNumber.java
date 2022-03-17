@@ -12,9 +12,10 @@ public static void main(String[] args) {
 		temp=temp/10;
 	}
 	
-	if(a==rev)    
+	if(a==rev) {    
 		   System.out.println("palindrome number ");    
-		  else    
+	}else {    
 		   System.out.println("not palindrome");    
 		}  
+}
 }
