@@ -16,5 +16,4 @@ public static void main(String[] args) {
 			System.out.println(s1 + " is not a Palindrome String.");
 		}
 	}
-
 }
