@@ -8,6 +8,7 @@ public class PasswordUsingIfElseLadder {
 		System.out.println(byUsingIfElseLadder(1,8));
 		System.out.println(byUsingIfElseLadder(2,8));
 		System.out.println(byUsingIfElseLadder(3,8));
+		System.out.println(byUsingIfElseLadder(4,1));
 		
 	}
 	public static char[] byUsingIfElseLadder(int strength,int length) {
@@ -27,11 +28,14 @@ public class PasswordUsingIfElseLadder {
 			if(strength==1) {
 				password[i]=combination1.charAt(r.nextInt(combination1.length()));
 			}
-			if(strength==2) {
+			else if(strength==2) {
 				password[i]=combination2.charAt(r.nextInt(combination2.length()));
 			}
-			if(strength==3) {
+			else if(strength==3) {
 				password[i]=combination3.charAt(r.nextInt(combination3.length()));
+			}
+			else {
+				System.out.println("Wrong Password");
 			}
 		}
 		
