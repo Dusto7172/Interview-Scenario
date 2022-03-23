@@ -12,6 +12,7 @@ public class PasswordUsingIfElseLadder {
 		
 	}
 	public static char[] byUsingIfElseLadder(int strength,int length) {
+		
 		String upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
 		String numbers = "0123456789";
